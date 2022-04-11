@@ -1,0 +1,79 @@
+{
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.autoSave": "afterDelay",
+  "files.exclude": {
+    "**/.vscode": true,
+    "**/.next": true,
+    "**/node_modules": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+  },
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.linkedEditing": true,
+  "css.validate": false,
+  "html.format.endWithNewline": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "git.autofetch": true,
+  "eslint.lintTask.enable": true,
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "editor.autoClosingQuotes": "always",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "cSpell.words": [
+    "arvanstorage",
+    "consts",
+    "csstype",
+    "endregion",
+    "headlessui",
+    "heroicons",
+    "hookform",
+    "imber",
+    "jalali",
+    "nextjs",
+    "packagejson",
+    "Parens",
+    "precommit",
+    "reduxjs",
+    "stylelint",
+    "svgr",
+    "tailwindcss"
+  ],
+  "cSpell.language": "en-US,fa-IR",
+  "cSpell.enableFiletypes": [
+    "typescript"
+  ],
+  "typescript.preferences.quoteStyle": "single",
+  "javascript.suggestionActions.enabled": false,
+  "tailwindCSS.files.exclude": [
+    "**/.git/**",
+    "**/node_modules/**",
+    "**/.hg/**",
+    "**/.next/**"
+  ],
+  "todo-tree.general.enableFileWatcher": true,
+  "todo-tree.general.tags": [
+    "BUG",
+    "FIXME",
+    "TODO"
+  ],
+  "todo-tree.highlights.backgroundColourScheme": [
+    "red",
+    "orange",
+    "blue"
+  ],
+  "todo-tree.highlights.foregroundColourScheme": [
+    "white",
+    "white",
+    "white"
+  ],
+  "todo-tree.highlights.useColourScheme": true,
+  "todo-tree.filtering.excludeGlobs": [
+    "node_modules",
+    ".next"
+  ]
+}

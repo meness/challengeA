@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    "typeRoots": [
+      "./typings",
+      "./node_modules/@types"
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "~*": [
+        "./src/*"
+      ]
+    },
+    "target": "ESNext",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "forceConsistentCasingInFileNames": true,
+    // strictNullChecks must be enabled for type inference to work for Yup
+    "strictNullChecks": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true
+  },
+  "include": [
+    "src",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "test",
+    ".next",
+    "public",
+    "**/*.spec.ts",
+    "typings"
+  ]
+}
