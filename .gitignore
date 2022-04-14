@@ -3,7 +3,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=git,linux,react,macos,nextjs,dotenv,windows,visualstudiocode,node
 
 ### dotenv ###
-.env
+# .env
 
 ### Git ###
 # Created by git for backups. To disable backups in Git:
@@ -144,10 +144,10 @@ web_modules/
 .yarn-integrity
 
 # dotenv environment variable files
-.env.development.local
-.env.test.local
-.env.production.local
-.env.local
+# .env.development.local
+# .env.test.local
+# .env.production.local
+# .env.local
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
